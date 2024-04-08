@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INICIO DE LA CABECERA*/
+.cont_header{
+    display: flex;
+    margin: 2em 10em 1em 7em;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cont_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 80%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.cont_nombre{
+    border: #fff 2px solid;
+    border-radius: 50px;
+    cursor: default;
+}
+
+.nombre{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+    margin: .2em 1em .2em 1em;
+}
+
+.cont_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0em 1em 0em 1em;
+    padding: .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    background-color: #1F1D59;
+    cursor: pointer;
+}
+
+.sesion{
+    border: #fff 2px solid;
+    background-color: #1F1D59;
+    transition: transform .3s ease-in-out;
+}
+
+.sesion:hover{
+    transform: scale(1.1);
+}
+
+.contenido{
+    margin: 35em 3em 3em 3em;
+    /*border: 1px solid #000;*/
+}
+/*FIN DE LA CABECERA*/
+
+/* INICIO DE QUIENES SOMOS */
+.cont_quienesSomos{
+    margin: 3% 5% 3% 5%;
+}
+
+.titulo_quienesSomos{
+    text-align: center;
+    font-size: 2em;
+    margin: 3% 0 3% 0;
+}
+
+.cont_texto_Imagen{
+    display: flex;
+    max-width: 100%;
+}
+
+.cont_texto{
+    max-width: 50%;
+    margin-right: 1%;
+}
+
+.info_quienesSomos{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.cont_imagen{
+    max-width: 50%;
+    margin-left: 1%;
+}
+
+.imagen1{
+    width: 100%;
+    height: 100%; 
+    max-height: 70%;
+}
+/* FIN DE QUIENES SOMOS */
+
+/*INICIO DEL FOOTER */
+footer {
+    display: flex;
+    background-color: #1F1D59;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2% 3% 2% 3%;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+.decoration{
+    text-decoration: none;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terminos{
+    color: #FFF;
+}
+
+.terminos:hover{
+    color: #0800ff;
+}
+/* FIN FOOTER */
+
+a{
+    text-decoration: none;
+}

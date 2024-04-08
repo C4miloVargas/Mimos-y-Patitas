@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INICIO DE LA CABECERA*/
+.cont_header{
+    display: flex;
+    padding: 1em 3em 1em 3em;
+    justify-content: space-between;
+    position: relative;
+    background-color: #1F1D59;
+}
+
+.cont_nombre{
+    border: #fff 2px solid;
+    border-radius: 50px;
+    cursor: default;
+}
+
+.nombre{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+    margin: .2em 1em .2em 1em;
+}
+
+.cont_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0em 1em 0em 1em;
+    padding: .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    background-color: #2b2970;
+    cursor: pointer;
+}
+
+.sesion{
+    border: #fff 2px solid;
+    background-color: #2b2970;
+    transition: transform .3s ease-in-out;
+}
+
+.sesion:hover{
+    transform: scale(1.1);
+    background-color: #2b2970;
+}
+
+.contenido{
+    margin: 1em 1em 1em 1em;
+    /*border: 1px solid #000;*/
+}
+/*FIN DE LA CABECERA*/
+
+/*INICIO CONTENIDO*/
+.cont_form{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.formulario{
+    width: 50%;
+    margin: 1% 5% 1% 1%;
+}
+
+.calendario{
+    margin-top: 5%;
+}
+
+.formulario, .calendario {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario h2, .calendario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table td:hover {
+    background-color: #f2f2f2;
+}
+
+.cont_consentimiento{
+    margin: 3%;
+}
+
+.cont_titulo_consentimiento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.cont_btn_enviar{
+    display: grid;
+    justify-content: center;
+}
+
+.btn_enviar{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+/*FIN CONTENIDO*/
+
+
+/*INICIO DEL FOOTER */
+footer {
+    display: flex;
+    background-color: #1F1D59;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2% 3% 2% 3%;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+.decoration{
+    text-decoration: none;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terminos{
+    color: #FFF;
+}
+
+.terminos:hover{
+    color: #0800ff;
+}
+/* FIN FOOTER */
+
+a{
+    text-decoration: none;
+}
