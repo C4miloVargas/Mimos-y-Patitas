@@ -175,11 +175,16 @@ table td:hover {
     border: 1px solid black;
 }
 
-.cont_titulo_consentimiento{
+/* .cont_titulo_consentimiento{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 2%;
+} */
+
+input[type="text"] {
+    max-width: 200px; 
+    margin-right: 10px; 
 }
 
 .cont_btn_enviar{
