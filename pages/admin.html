@@ -7,55 +7,88 @@
     <title>Administrador</title>
 </head>
 <body>
-    <header>
-        <div class="cont_header">
-            <div class="cont_nombre">
-                <h1 class="nombre">Mimos y Patitas</h1>
-            </div>
-            <div class="cont_ul">
-                <ul>
-                    <a href="index.html"><li>Inicio</li></a>
-                    <a href="citas.html"><li>Citas</li></a>
-                    <a href="login.html"><li class="sesion">Iniciar sesión</li></a>
-                </ul>
-            </div>
+  <header>
+    <div class="cont_header">
+      <div class="cont_img">
+        <div class="cont_logo">
+          <a href="/pages/index.html"><img src="../Images/icono.ico" alt="" class="logo" /></a>
         </div>
-    </header>
+        <div class="cont_titulo">
+          <h1 class="titulo">Mimos y Patitas</h1>
+        </div>
+      </div>
 
-    <div class="contenido">
-        <div class="cont_titulo_historial">
-            <h2 class="texto_titulo">Historial de citas programadas</h2>
+      <div class="cont_ul"> 
+        <ul>
+          <a href="index.html"><li>Inicio</li></a>
+          <a href="citas.html"><li>Citas</li></a>
+          <a href="login.html"><li class="sesion">Iniciar sesión</li></a>
+          <a
+            ><button onclick="mostrarTexto('nosotros')" class="btn-nosotros">
+              Nosotros
+            </button></a>
+        </ul>
+      </div>
+      <div class="content-redes">
+        <a
+          href="https://www.instagram.com/mimos_y_patitas?igsh=Yzl6eGRibmd4Mmx1"
+          target="_blank"
+          ><img src="../Images/instagrammorado.png" alt="" class="instagram"
+        /></a>
+        <a href="https://www.facebook.com/Goyipet" target="_blank"
+          ><img src="../Images/facebookmorado.png" alt="" class="facebook"
+        /></a>
+        <div class="contenedor">
+          <div class="imagen-con-hover">
+            <img src="../Images/gmail.png" alt="Descripción de la imagen" />
+            <div class="texto-hover">valeja1718@gmail.com</div>
+          </div>
         </div>
-        <div class="cont_historial">
-            <table>
-                <tr>
-                    <th>Nombre dueño</th>
-                    <th>Fecha de cita</th>
-                </tr>
-                <tr>
-                    <td>Camilo Vargas</td>
-                    <td>25/03/2024</td>
-                </tr>
-                <tr>
-                    <td>Manolo Toledo</td>
-                    <td>03/04/2024</td>
-                </tr>
-            </table>
-        </div>
+      </div>
     </div>
+  </header>
+
+
 
     <footer>
-        <div class="social-icons">
-            <a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr" target="_blank"><img src="../Images/facebook.png" alt="Facebook"></a>
-            <a href="https://twitter.com/?lang=es" target="_blank"><img src="../Images/gorjeo.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../Images/instagram.png" alt="Instagram"></a>
+      <div class="foot-info">
+        <div class="info-uno">
+          <h1>Mimos y Patitas</h1>
         </div>
-        <div class="cont">
-        <p>&copy; 2024 Mimos y Patitas. Todos los derechos reservados.</p>
+        <div class="info-dos">
+          <h2>Contactanos</h2>
+          <a href="https://www.google.com/maps/place/Mimos+y+patitas/@2.9362538,-75.2679148,17z/data=!4m15!1m8!3m7!1s0x8e3b75001ceaa6ad:0x5764e8c7ba312544!2sMimos+y+patitas!8m2!3d2.9362538!4d-75.2653399!10e1!16s%2Fg%2F11y2kpd2yy!3m5!1s0x8e3b75001ceaa6ad:0x5764e8c7ba312544!8m2!3d2.9362538!4d-75.2653399!16s%2Fg%2F11y2kpd2yy?entry=ttu" target="_blank" class="btn_ubi"><button class="info-dos-uno btn_ubi">
+            <img src="../Images/ubicacion.png" alt="" />
+            <h3>Colombia,Huila,Neiva</h3>
+          </button></a>
+          <div class="info-dos-uno">
+            <img src="../Images/correo.png" alt="" />
+            <h3>valeja1718@gmail.com</h3>
+          </div>
         </div>
-        <div class="cont">
-            <a href="" class="decoration"><p class="terminos">Terminos y Condiciones</p></a>
+        <div class="info-tres">
+          <h2>Conocenos</h2>
+          <a href="/pages/index.html"><h3 class="galeria">Galeria</h3></a>
+          <h3>Equipo</h3>
         </div>
+        <div class="info-cuatro">
+          <div class="info-cuatro-dos">
+            <h2>Siguenos</h2>
+            <a href="https://www.facebook.com/Goyipet"target="_blank"><img src="../Images/facebook.png" alt="" />
+              <a href="https://www.instagram.com/mimos_y_patitas?igsh=Yzl6eGRibmd4Mmx1"target="_blank"><img src="../Images/instagram.png" alt="" />
+                <a href="mailto:valeja1718@gmail.com" target="_blank"><img src="../Images/gmailcolor.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="foot-legal">
+        <h2 class="copy">&copy;2024 Todos los derechos reservados</h2>
+        <div class="cont-legal">
+          <h3>Politicas de privacidad</h3>
+          <h3>Terminos de uso</h3>
+        </div>
+      </div>
     </footer>
-</body>
+    
+  </body>
+  <script type="text/javascript" src="../js/inicio.js"></script>
 </html>
