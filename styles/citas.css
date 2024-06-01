@@ -51,6 +51,7 @@ body{
 
 .titulo{
   color: #996AA1;
+  font-size: 2.3em;
 }
 
 .cont_img {
@@ -314,6 +315,7 @@ input[type=number] {
 .cont_check{
     display: grid;
     justify-content: center;
+    margin-left: -6%;
 }
 
 .checkbox-wrapper-10 .tgl {
@@ -617,11 +619,14 @@ background: linear-gradient(0deg, rgba(113,61,99,1) 0%, rgba(153,106,161,1) 100%
   font-weight: 200;
   color: rgb(180, 180, 180);
   margin-left: 10%;
+  width: 100%;
+  font-size: 2em;
 }
 .cont-legal h3{
   margin-right: 10px;
   font-weight: 200;
   color: rgb(180, 180, 180);
+  font-size: 2em;
 }
 .cont-legal h3:hover{
   color: #EEA98F;
@@ -663,4 +668,404 @@ background: linear-gradient(0deg, rgba(113,61,99,1) 0%, rgba(153,106,161,1) 100%
 
 a{
     text-decoration: none;
+}
+
+
+/* Responsive para tablet y móvil */
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .cont_logo {
+    width: 20%; /* Ancho del contenedor del logo para tablet */
+  }
+
+  .cont_titulo {
+    width: 80%; /* Ancho del contenedor del título para tablet */
+    text-align: center; /* Alinear el texto al centro */
+  }
+
+  .cont_ul {
+    margin-top: 15px; /* Margen superior para la lista de redes sociales */
+    padding: 15px; /* Relleno para la lista de redes sociales */
+    text-align: center; /* Alinear la lista de redes sociales al centro */
+  }
+
+  .content-redes {
+    margin-left: 0; /* Eliminar el margen izquierdo de las redes sociales */
+  }
+
+  .cont_input {
+    margin: 10px auto; /* Margen para los campos de entrada */
+    max-width: 80%; /* Ancho máximo para los campos de entrada */
+  }
+
+  input, select {
+    width: 100%; /* Ancho completo para los campos de entrada y selección */
+  }
+
+  .cont_consentimiento {
+    padding: 2%; /* Relleno para el consentimiento */
+    text-align: center; /* Alinear el texto del consentimiento al centro */
+  }
+
+  /* FOOTER */
+.info-uno h1{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-dos h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-tres h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-cuatro-dos h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-cuatro-dos img{
+  margin-top: 5%;
+  width: 3em;
+  height: 3em;
+}
+/* FIN FOOTER */
+}
+
+/* Responsive para móvil */
+@media screen and (min-width: 0px) and (max-width: 699px) {
+  /* Alinear el contenido inicial al centro en una columna */
+  .content-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Establecer el ancho del contenido izquierdo y derecho al 90% del contenedor */
+.content-left,
+.content-right {
+    width: 100%;
+}
+
+/* Alinear el texto al centro y añadir un margen inferior de 1.25em */
+.content-text {
+    text-align: center;
+    margin-bottom: 1.25em;
+}
+
+/* Establecer márgenes superior e inferior para los párrafos dentro del texto */
+.content-text p {
+    margin-top: 0;
+    margin-bottom: 0.625em;
+}
+
+/* Añadir margen superior al contenido derecho y alinear las imágenes al centro */
+.content-right {
+    margin-top: 1.25em;
+    text-align: center;
+}
+
+/* Ajustar el tamaño de las imágenes al 100% del contenedor con un máximo de 12.5em,
+   mantener la proporción y aplicar un radio de borde de 0.625em */
+.content-right img {
+    width: 100%;
+    max-width: 12.5em;
+    height: auto;
+    border-radius: 0.625em;
+}
+
+/* Cambiar el orden de los elementos de contenido */
+.content-img:nth-of-type(1) {
+    order: 1;
+}
+
+.content-text:nth-of-type(1) {
+    order: 2;
+}
+
+.content-img:nth-of-type(2) {
+    order: 3;
+}
+
+.content-text:nth-of-type(2) {
+    order: 4;
+}
+
+/* Ajustar el espacio entre palabras en el título a 0 */
+.cont_titulo h1 {
+    white-space: nowrap;
+}
+
+/* Cambiar la dirección de la fila a columna y alinear los elementos al centro */
+.cont_header {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Añadir margen superior e inferior a los elementos de redes sociales */
+.content-redes {
+    margin-top: 0.625em;
+    margin-bottom: .625em;
+    margin-left: 1em; /* Agregar un margen izquierdo de 1em */
+}
+
+.cont_flex {
+  flex-wrap: wrap;
+}
+
+.cont_input {
+  margin: 10px auto; 
+  max-width: 90%; 
+}
+
+input, select {
+  width: 100%;
+}
+
+.cont_consentimiento {
+  padding: 2%;
+  text-align: center;
+}
+
+/* HEADER */
+.cont_header {
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-redes {
+  margin-top: 1em;
+  margin-bottom: .625em;
+  margin-left: 0px;
+}
+
+.cont_logo {
+  width: auto;
+  margin-bottom: 5.25em;
+}
+
+.cont_titulo {
+  width: auto;
+  margin-left: 1%;
+}
+
+.titulo{
+  font-size: 2em;
+}
+
+.cont_img {
+  width: 18.75em;
+  max-width: 18.75em;
+}
+
+.logo{
+  width: 5em;
+}
+
+ul a{
+  margin-right: 0px;
+  margin: .5em;
+}
+/* FIN HEADER */
+
+.cont_consentimiento{
+  text-align: left;
+}
+
+.llenar{
+  width: 10em;
+}
+
+.nombre{
+  width: 15em;
+}
+
+.texto{
+  margin: 5% 1%;
+  text-align: justify;
+}
+
+.texto2{
+  line-height: 2.5em;
+}
+
+.estilo_select{
+  width: 15em;
+}
+
+.nota{
+  font-size: 1.1em;
+}
+
+.cont_btn_enviar{
+  margin: 2em;
+}
+
+/* FOOTER */
+
+.foot-info{
+  display: grid;
+}
+
+.info-uno h1{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.info-dos{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.info-dos h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.info-dos img{
+  width: 2em;
+  height: 2em;
+}
+
+.info-dos-uno h3{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.info-tres{
+  margin: 10%;
+}
+
+.info-tres h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.info-tres h3{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.info-cuatro-dos h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.redes_sociales{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-legal{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy{
+  font-size: 2em;
+  width: auto;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.cont-legal h3{
+  font-size: 2em;
+  margin-top: .5em;
+}
+/* FIN FOOTER */
+
+/* AUTORIZAR */
+.cont_check{
+  margin-left: -5em;
+}
+}
+
+/* Responsive para Tablet */
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .cont_header {
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-redes {
+    margin-top: 1em;
+    margin-bottom: .625em;
+    margin-left: 0px;
+}
+
+.cont_titulo h1 {
+  white-space: nowrap;
+}
+
+.cont_logo {
+    width: auto;
+    margin-bottom: 5.25em;
+}
+
+.cont_titulo {
+    width: auto;
+    margin-left: 1%;
+}
+
+.cont_img {
+    width: 18.75em;
+    max-width: 18.75em;
+}
+
+.logo{
+    width: 5em;
+}
+
+  .cont_btn_enviar{
+    margin: 2em;
+  }
+  
+  .cont_consentimiento{
+    text-align: left;
+  }
+  
+  .llenar{
+    width: 10em;
+  }
+  
+  .nombre{
+    width: 15em;
+  }
+  
+  .texto{
+    margin: 5% 1%;
+    text-align: justify;
+  }
+  
+  .texto2{
+    line-height: 2.5em;
+  }
+  
+  .estilo_select{
+    width: 15em;
+  }
+  
+  .nota{
+    font-size: 1.1em;
+  }
+
+  .cont_input{
+    margin: 2em;
+  }
+
+  /* AUTORIZAR */
+.cont_check{
+  margin-left: -5em;
+}
 }

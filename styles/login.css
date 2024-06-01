@@ -300,6 +300,10 @@ li:hover {
   border: 1.5px solid #996AA1;
 }
 
+.contrasena{
+  width: 80%;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -404,6 +408,7 @@ background: linear-gradient(0deg, rgba(113,61,99,1) 0%, rgba(153,106,161,1) 100%
   font-size: 14px;
   margin-bottom: 5px;
   padding-top: 4px;
+  color: #fff;
 }
 .info-tres h3:hover{
   color: #EEA98F;
@@ -464,17 +469,17 @@ background: linear-gradient(0deg, rgba(113,61,99,1) 0%, rgba(153,106,161,1) 100%
 }
 .cont-legal{
   display: flex;
-  
 }
 .copy{
   font-weight: 200;
   color: rgb(180, 180, 180);
-  margin-left: 10%;
+  font-size: 2em;
 }
 .cont-legal h3{
   margin-right: 10px;
   font-weight: 200;
   color: rgb(180, 180, 180);
+  font-size: 2em;
 }
 .cont-legal h3:hover{
   color: #EEA98F;
@@ -517,3 +522,214 @@ background: linear-gradient(0deg, rgba(113,61,99,1) 0%, rgba(153,106,161,1) 100%
 a{
   text-decoration: none;
 }
+
+@media screen and (min-width: 0px) and (max-width: 699px) {
+  .cont_titulo h1 {
+    white-space: nowrap;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.cont_header {
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-redes {
+    margin-top: 1em;
+    margin-bottom: .625em;
+    margin-left: 0px;
+}
+
+.cont_logo {
+    width: auto;
+    margin-bottom: 5.25em;
+}
+
+.cont_titulo {
+    width: auto;
+    margin-left: 1%;
+}
+
+.cont_img {
+    width: 18.75em;
+    max-width: 18.75em;
+}
+
+.logo{
+    width: 5em;
+}
+
+  .cont_ul {
+      margin-top: 15px;
+      padding: 15px;
+      text-align: center;
+  }
+
+  footer {
+      padding: 20px 3%;
+      text-align: center;
+  }
+
+  .foot-info {
+      margin-bottom: 15px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .foot-legal {
+      margin-top: 15px;
+      font-size: 9px;
+  }
+
+  /* FOOTER */
+
+.foot-info{
+  display: grid;
+}
+
+.info-uno h1{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.info-dos{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.info-dos h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.info-dos img{
+  width: 2em;
+  height: 2em;
+}
+
+.info-dos-uno h3{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.info-tres{
+  margin: 10%;
+}
+
+.info-tres h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.info-tres h3{
+  font-size: 1.5em;
+}
+
+.info-cuatro-dos h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.redes_sociales{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-legal{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.copy{
+  font-size: 2em;
+  width: auto;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.cont-legal h3{
+  font-size: 1.5em;
+  margin-top: .5em;
+}
+/* FIN FOOTER */
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .cont_titulo h1 {
+    white-space: nowrap;
+}
+
+.cont_header {
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-redes {
+    margin-top: 1em;
+    margin-bottom: .625em;
+    margin-left: 0px;
+}
+
+.cont_logo {
+    width: auto;
+    margin-bottom: 5.25em;
+}
+
+.cont_titulo {
+    width: auto;
+    margin-left: 1%;
+}
+
+.cont_img {
+    width: 18.75em;
+    max-width: 18.75em;
+}
+
+.logo{
+    width: 5em;
+}
+
+  .cont_ul {
+      padding: 10px;
+      text-align: center;
+  }
+
+  /* FOOTER */
+.info-uno h1{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-dos h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-tres h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-cuatro-dos h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-cuatro-dos img{
+  margin-top: 5%;
+  width: 3em;
+  height: 3em;
+}
+/* FIN FOOTER */
+}
+
